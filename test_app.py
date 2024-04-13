@@ -9,4 +9,4 @@ def client():
 
 def test_hello_world(client):
     response = client.get('/')
-    assert response.data == b'Hola, mundo!'
+    assert response.data == b'Hola, mundoo!'
